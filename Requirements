@@ -1,0 +1,17 @@
+Requirements:
+1.)colorization_release_v2.caffemodel : 
+	link: http://eecs.berkeley.edu/~rich.zhang/projects/2016_colorization/files/demo_v2/colorization_release_v2.caffemodel
+	It is a pre-trained model stored in the Caffe framework’s format that can be used to predict new unseen data.
+
+2.)colorization_deploy_v2.prototxt : 
+	It consists of different parameters that define the network and it also helps in deploying the Caffe model.
+
+3.)pts_in_hull.npy :
+	NumPy file
+	
+Second and third are already in the folder.
+ 
+But first one will be needed to downloaded from the link : 
+http://eecs.berkeley.edu/~rich.zhang/projects/2016_colorization/files/demo_v2/colorization_release_v2.caffemodel
+
+Download the above caffemodel and save it in the folder comprising of main python file.
